@@ -8,52 +8,55 @@ The goal of this exercise is to analyze the dataset, its lyrical features, and (
 #### Disclaimer: note that as this is real-world data, lyrical content is often obscene. 
 
 
-The columns in the dataset are: 
-* artist_name: The name of the artist
+The contents of this dataset are: 
 
-* track_name: The name of the song
+Categorical:
 
-* release_date: When this song was released
+1. artist_name: The name of the artist
 
-* genre: The categorical genre of this song
+2. track_name: The name of the song
 
-* lyrics: The pre-tokenized lyrics of this song. 
+3. release_date: When this song was released
 
+4. genre: The categorical genre of this song
 
-* len:  The number of words in the lyrics of this song
+5. lyrics: The pre-tokenized lyrics of this song. 
 
-* dating: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with dating.
+6. topic: The categorical label of lyrical content
 
-* violence: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with violence.
+Numerical: 
+1. len:  The number of words in the lyrics of this song
 
-* world/life: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the world or life in general terms.
+2. dating: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with dating.
 
-* night/time: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do night-life or time.
+3. violence: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with violence.
 
-* shake the audience: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with provocative feeling.
+4. world/life: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the world or life in general terms.
 
-* family/gospel: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with family-oriented content or the gospel.
+5. night/time: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do night-life or time.
 
-* romantic: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with romantic feeling.
+6. shake the audience: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with provocative feeling.
 
-* communication: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with communication (either in romantic terms or otherwise).
+7. family/gospel: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with family-oriented content or the gospel.
 
-* obscene: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with obscene content (money, rockstar-lifestyle, etc).
+8. romantic: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with romantic feeling.
 
-* music: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with music (music about music, basically).
+9. communication: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with communication (either in romantic terms or otherwise).
 
-* movement/places: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with movement or various locations.
+10. obscene: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with obscene content (money, rockstar-lifestyle, etc).
 
-* light/visual perceptions: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the sun or other physical weather-related patterns.
+11. music: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with music (music about music, basically).
 
-* family/spiritual: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the importance of family or spirituality.
+12. movement/places: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with movement or various locations.
 
-* sadness: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the importance of family or spirituality.
+13. light/visual perceptions: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the sun or other physical weather-related patterns.
 
-* feelings: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with emotions, either positive or negative.
+14. family/spiritual: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the importance of family or spirituality.
 
-* topic: The categorical label of lyrical content
+15. sadness: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with the importance of family or spirituality.
 
-* age: A score from 0 to 1 expressing how “old” a song is from our perspective. 1 being the oldest, and 0 being the newest.
+16. feelings: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with emotions, either positive or negative.
+
+17. age: A score from 0 to 1 expressing how “old” a song is from our perspective. 1 being the oldest, and 0 being the newest.
 
 
